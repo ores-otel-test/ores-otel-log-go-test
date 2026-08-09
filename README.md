@@ -1,7 +1,6 @@
 # ores-otel-log-go-test
 
-Exact-head **go** conformance harness for `ores-otel/ores.otel.log` and `ORESoftware/next-loggers.ts`.
+Exact-head conformance harness for **go**.
 
-Native verification command: `go test -race ./...`.
-
-Promotion requires both sources to pass at explicit 40-character commit SHAs.
+This repository tests both `ores-otel/ores.otel.log` and `ORESoftware/next-loggers.ts` using explicit commit SHAs.
+The required native command is recorded in `conformance.json`: `go test -race ./...`.
