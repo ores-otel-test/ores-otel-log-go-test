@@ -8,6 +8,10 @@
     "lifecycle",
     "concurrency"
   ],
+  "exactHeads": {
+    "canonical": "05f14768232b770dfc2bbe03f27b388f5a701c74",
+    "legacy": "05f14768232b770dfc2bbe03f27b388f5a701c74"
+  },
   "language": "go",
   "name": "ores-otel-log-go-test",
   "runtime": "Go 1.24+",
@@ -15,7 +19,7 @@
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "status": "planned",
+  "status": "created",
   "testCommand": "go test -race ./...",
   "toolchain": "go"
 }
