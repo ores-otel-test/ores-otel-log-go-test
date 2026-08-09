@@ -1,0 +1,15 @@
+{
+  "language": "go",
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-go-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
+  "runtime": "Go 1.24+",
+  "sources": [
+    "ores-otel/ores.otel.log",
+    "ORESoftware/next-loggers.ts"
+  ],
+  "status": "seeded",
+  "testCommand": "go test -race ./...",
+  "toolchain": "go"
+}
