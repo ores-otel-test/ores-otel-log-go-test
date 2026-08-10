@@ -1,26 +1,15 @@
 {
-  "automatic_instrumentation": false,
-  "capabilities": [
-    "record-schema",
-    "api-manifest",
-    "context-isolation",
-    "otel-explicit",
-    "no-monkey-patching",
-    "lifecycle",
-    "concurrency"
-  ],
-  "exact_heads": {
-    "canonical": "9f633f17db3fe4f205273e164c63b80e6da6ca0e",
-    "legacy": "be37556eeeaa77c2fc57feda96239b69cca8e9ac"
-  },
   "language": "go",
-  "no_monkey_patching": true,
-  "repository": "ores-otel-test/ores-otel-log-go-test",
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-go-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
   "runtime": "Go 1.24+",
-  "schema_version": 1,
   "sources": [
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "test_command": "go test -race ./..."
+  "status": "seeded",
+  "testCommand": "go test -race ./...",
+  "toolchain": "go"
 }
